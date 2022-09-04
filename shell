@@ -1,0 +1,158 @@
+ls
+history
+sudo rm /usr/local/bin/php
+rm /usr/local/bin/php
+php -v
+sudo vim /usr/local/bin/php
+sudo chmod +x /usr/local/bin/php
+ls -la
+sudo touch /usr/local/bin/php
+cd /usr/local/bin
+sail mysql
+sail artisan db:seed
+sail artisan make:factory TweetFactory --model=Tweet
+sail artisan make:model Tweet
+sail artisan make:seeder TweetsSeeder
+sail artisan migrate
+sail artisan make:migration create_tweets_table
+sail artisan make:controller Tweet/IndexController --invokable
+sail artisan make:controller Sample/IndexController
+sail artican make:controller Sample/IndexController
+sail up -d
+sail down
+cd ./../
+chmod 644 my.cnf
+cd 8.1
+cd docker
+sail shell
+cat my.cnf
+cd "/mnt/c/Users/1/Documents/personal/dev/competitive_programming/Atcoder/APG4b/" && g++ APG4b_ci.cpp -o APG4b_ci && "/mnt/c/Users/1/Documents/personal/dev/competitive_programming/Atcoder/APG4b/"APG4b_ci
+sail build --no-cache
+cd "/mnt/c/Users/1/Documents/personal/dev/competitive_programming/Atcoder/APG4b/" && g++ APG4b_cj.cpp -o APG4b_cj && "/mnt/c/Users/1/Documents/personal/dev/competitive_programming/Atcoder/APG4b/"APG4b_cj
+cd "/mnt/c/Users/1/Documents/personal/dev/competitive_programming/Atcoder/APG4b/" && g++ APG4b_ck.cpp -o APG4b_ck && "/mnt/c/Users/1/Documents/personal/dev/competitive_programming/Atcoder/APG4b/"APG4b_ck
+sail artisan sail:publish
+sail
+vim config.fish
+cd fish
+cd .config
+rm .profile
+cd ~
+vim .profile
+z laravel*
+source ~/.profile
+git push -u origin main
+git remote add origin https://github.com/hatobato/laravel9_web_professional.git
+./vendor/bin/sail up
+lsof -t -i :80
+historyu
+cd example-app/
+lsof -t -i :8080
+lsfo -i :80
+curl -s https://laravel.build/example-app | bash
+sudo chmod 666 /var/run/docker.sock
+cd "/mnt/c/Users/1/Documents/personal/dev/competitive_programming/Atcoder/APG4b/" && g++ APG4b_cl.cpp -o APG4b_cl && "/mnt/c/Users/1/Documents/personal/dev/competitive_programming/Atcoder/APG4b/"APG4b_cl
+- 10
+* 2
+/ 2
+cd "/mnt/c/Users/1/Documents/personal/dev/competitive_programming/Atcoder/APG4b/" && g++ APG4b_cm.cpp -o APG4b_cm && "/mnt/c/Users/1/Documents/personal/dev/competitive_programming/Atcoder/APG4b/"APG4b_cm
+python -u "/mnt/c/Users/1/Documents/personal/dev/competitive_programming/Atcoder/ABC086/abc086_a.py"
+git config --global user.name "hatobato"
+git config --get-all user.name "hatobato"
+git config --global user.email "hatobato61@gmail.com"
+cd "/mnt/c/Users/1/Documents/personal/dev/competitive_programming/Atcoder/" && g++ helloworld.cpp -o helloworld && "/mnt/c/Users/1/Documents/personal/dev/competitive_programming/Atcoder/"helloworld
+code .
+sudo apt-get install gdb
+which g++
+g++ --version
+sudo apt-get install build-essential
+sudo apt-get update
+apt install build-essential
+sudo apt install g++
+npm i -g @pliny/cli
+sed -i "/(?<=^#.*\n)\n/d" final（Dart）.md
+sed -i "/(?<=^#.*\n)/d" final（Dart）.md
+sed -i "/(?<=^#.*\n)%%/d" final（Dart）.md
+sed -i "/(?<=^#.*\n)^\n/d"
+sed -i "/%%/d" final（Dart）.md
+ls -la | grep final*
+sed -i "(?<=^#.*\n)%%" final（Dart）.md
+sed -i "/^\n/d" final（Dart）.md
+sed -i "/(?<=^#.*\n)^\n/d" final（Dart）.md
+sed -ie "/(?<=^#.*\n)\n/d" final（Dart）.md
+sed -ie "s\/(?<=^#.*\n)\n/d" final（Dart）.md
+sed -ie "s/(?<=^#.*\n)\n/d" final（Dart）.md
+sed -ie "s/(?<=^#.*\n)\n//g" final（Dart）.md
+sed -ie s/(?<=^#.*\n)\n//g final（Dart）.md
+perl -pi -e 's/(?<=^#.*\n)\n//g;' final（Dart）.md
+perl -pi -e 's/(?<=^#.*\n)\n/ /g;' final（Dart）.md
+cd Dart
+cd *Spaces
+cd z/Spaces/Dart
+sed
+hugo version
+hugo
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+source ~/.bashrc
+echo 'export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"' >>  ~/.bashrc
+cd /home/linuxbrew/.linuxbrew/bin
+brew install hugo
+ls -la  *brew*
+ls -la  brew
+ls -la | brew
+cd /bin
+pwd
+cd /home/linuxbrew/.linuxbrew/
+choco install hugo -confirm
+cd flutter
+cd bin
+flutter
+flutter doctor
+flutter docktor
+printenv | grep flutter
+printenv | flutter
+vim ~/.config/fish/config.fish
+mv ~/flutter ~/bin/flutter
+mkdir bin
+mv flutter ~/bin/flutter
+tar xf ~/flutter_linux_2.10.5-stable.tar.xz
+rm bin -rf
+rm bin
+cd ~/bin
+mv ~/flutter ~/bin/
+cd ./../../
+fish
+export PATH="$PATH:`pwd`/flutter/bin"
+printenv
+tar xf flutter_linux_2.10.5-stable.tar.xz
+
+cd /C/Users
+cd /C/Users/1/Downloads/flutter_linux_2.10.5-stable.tar.xz
+sudo snap install flutter --classic
+fish_config
+fisher install oh-my-fish/theme-bobthefish
+fisher add oh-my-fish/theme-bobthefish
+fisher install oh-my-fish/plugin-peco
+fisher install jethrokuan/z
+curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher
+curl -sL https://github.com/jorgebucaran/fisher/blob/0a0c48993ae2bcf832fecff6efb0b11482183b6f/functions/fisher.fish
+curl -sL https://github.com/jorgebucaran/fisher/blob/0a0c48993ae2bcf832fecff6efb0b11482183b6f/functions/fisher.fish | source && fisher install jorgebucaran/fisher
+curl -sL https://github.com/jorgebucaran/fisher.git | source && fisher install jorgebucaran/fisher
+curl -sL https://github.com/jorgebucaran/fisher | source && fisher install jorgebucaran/fisher
+curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
+curl --help
+curl
+fisher
+cat /etc/os-release
+node main
+cd 1
+cd Users
+cdWindows
+cd c
+cd mnt
+cd /
+cd =
+sudo apt install -y nodejs
+curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+sudo apt install nodejs
+cd Downloads
