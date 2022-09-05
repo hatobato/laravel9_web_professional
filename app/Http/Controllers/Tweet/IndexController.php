@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Tweet;
 use App\Http\Controllers\Controller;
 use App\Models\Tweet;
 use Illuminate\Http\Request;
-use App\Service\TweetService;
+use App\Services\TweetService;
 
 class IndexController extends Controller
 {
