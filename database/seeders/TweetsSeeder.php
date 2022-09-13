@@ -20,8 +20,10 @@ class TweetsSeeder extends Seeder
     {
         Tweet::factory()->count(10)->create()->each(
             fn ($tweet) =>
-            Image::factory()->count(4)->create()->each(fn ($image) =>
-            $tweet->images()->attach($image->id))
+            Image::factory()->count(4)->create()->each(
+                fn ($image) =>
+                $tweet->images()->attach($image->id)
+            )
         );
     }
 }
