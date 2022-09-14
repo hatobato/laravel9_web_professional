@@ -21,7 +21,7 @@ class ImageFactory extends Factory
             Storage::makeDirectory('public/images');
         }
         return [
-            'name' => 'https://via.placeholder.com/150'
+            'name' => 'sample.jpg'
         ];
     }
 }
